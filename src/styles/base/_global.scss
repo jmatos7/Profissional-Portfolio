@@ -1,0 +1,21 @@
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+
+    font-family: var(--font-primary);
+    line-height: var(--line-normal);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    overflow-x: hidden;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+::selection {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
